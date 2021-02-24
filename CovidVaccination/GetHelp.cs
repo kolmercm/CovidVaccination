@@ -23,5 +23,10 @@ namespace CovidVaccination
             mform.Show();
             this.Hide();
         }
+
+        private void GetHelp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

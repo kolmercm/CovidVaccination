@@ -33,7 +33,6 @@ namespace CovidVaccination
 
         private void Login2_Click(object sender, EventArgs e)
         {
-            UsernametextBox.Text
         }
     }
 }

@@ -147,5 +147,8 @@
   <ItemGroup>
     <None Include="Resources\welcome3.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="CovidVaccination HTML\MissouriCovidVaccination.html" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

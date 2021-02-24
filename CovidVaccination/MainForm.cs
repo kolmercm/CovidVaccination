@@ -30,5 +30,10 @@ namespace CovidVaccination
             Hform.Show();
             this.Hide();
         }
+
+        private void gridview_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

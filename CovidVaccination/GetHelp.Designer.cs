@@ -38,18 +38,20 @@ namespace CovidVaccination
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CovidVaccination.Properties.Resources.background;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(983, 649);
+            this.pictureBox1.Size = new System.Drawing.Size(655, 422);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(835, 589);
+            this.button1.Location = new System.Drawing.Point(557, 383);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 37);
+            this.button1.Size = new System.Drawing.Size(83, 24);
             this.button1.TabIndex = 2;
             this.button1.Text = "Main Menu";
             this.button1.UseVisualStyleBackColor = true;
@@ -58,22 +60,25 @@ namespace CovidVaccination
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 621);
+            this.label1.Location = new System.Drawing.Point(8, 404);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(341, 20);
+            this.label1.Size = new System.Drawing.Size(230, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Copyright © 2021 Created by the Agile Warriors";
             // 
             // GetHelp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(986, 650);
+            this.ClientSize = new System.Drawing.Size(657, 422);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "GetHelp";
             this.Text = "GetHelp";
+            this.Load += new System.EventHandler(this.GetHelp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
